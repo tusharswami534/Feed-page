@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.use {
+    color: var(--secondary);
+    color: var(--primary);
+    font-size: var(--fs-16);
+    font-size: var(--fs-48);
+
+}
+
+.log-out {
+
+    width: 118px;
+    height: 40px;
+    background-color: var(--secondary);
+    color: white;
+    border-radius: 23px;
+    border: none;
+
+
+}
+
+.gap-56 {
+    gap: 56px;
+
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.log-out:hover {
+    background-color: white;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+
+.logo {
+    font-family: Poppins;
+    font-size: var(--fs-48);
+    font-weight: 700;
+    line-height: 48.6px;
+    color: var(--secondary);
+
+
+}
+
+.home-feed {
+    font-family: Poppins;
+    font-size: var(--fs-16);
+    color: var(--primary);
+
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.head-text {
+    font-family: Poppins;
+    font-size: var(--fs-48);
+    font-weight: 600;
+    line-height: 72px;
+
+}
+
+.heading-text {
+    font-family: Poppins;
+    font-size: var(--fs-16);
+    color: var(--primary);
+
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+.Event {
+    color: var(--null);
+}
+
+.hover-bold {
+    font-family: Poppins;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+
+
+}
+
+.Foll-event {
+    font-family: Poppins;
+    font-size: var(--fs-16);
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--primary);
+
+}
+
+
+
+.imgs {
+    transition: all 300ms linear;
+    overflow: hidden;
+    max-width: 356px;
+    border-radius: 40px;
+    cursor: pointer;
+
+
+
+}
+
+.img {
+    max-width: 356px;
+    transition: all 300ms linear;
+
+
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+.box-2 {
+    max-width: 322px;
+    height: 138px;
+    padding: 12px;
+    border-radius: 20px;
+    transition: all 300ms linear ;
+    border: 1px solid rgb(236, 224, 236);
+}
+
+.box-2:hover {
+    box-shadow: 5px 20px 40px 0px #0000001A;
+    border: none;
+    transition: all 300ms linear;
+
+}
+
+.Quis-text {
+    font-family: Poppins;
+    font-size: var(--fs-12);
+    color: var(--primary);
+    font-weight: 400;
+    line-height: 18px;
+
+
+}
+.gap-20{
+    gap: 20px   ;
+}
+
+.ml-13 {
+    margin-left: 13px;
+}
+
+.etiam {
+    font-family: Poppins;
+    font-size: var(--fs-16);
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
