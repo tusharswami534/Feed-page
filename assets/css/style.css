@@ -127,7 +127,7 @@
     height: 138px;
     padding: 12px;
     border-radius: 20px;
-    transition: all 300ms linear ;
+    transition: all 300ms linear;
     border: 1px solid rgb(236, 224, 236);
 }
 
@@ -147,8 +147,9 @@
 
 
 }
-.gap-20{
-    gap: 20px   ;
+
+.gap-20 {
+    gap: 20px;
 }
 
 .ml-13 {
@@ -163,3 +164,146 @@
 
 }
 
+.plus-15 {
+    font-family: Poppins;
+    font-size: var(--fs-36);
+    font-weight: 600;
+    text-align: center;
+    color: black;
+
+}
+
+.more {
+    font-family: Poppins;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.text-2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.boxs {
+    flex-wrap: wrap;
+}
+
+.box-3 {
+    background-color: var(--null);
+
+    width: 171px;
+    border-radius: 20px;
+    height: 138px;
+}
+
+.box-3:hover {
+    background-color: white;
+    border: 2px solid var(--secondary);
+}
+
+.line-1 {
+    width: 166px;
+    height: 8px;
+    background-color: var(--secondary);
+
+}
+
+.line-2 {
+    width: 22px;
+    height: 8px;
+    background-color: var(--null);
+
+}
+
+.New-post {
+    font-family: Poppins;
+    font-size: var(--fs-48);
+    font-weight: 600;
+
+
+
+}
+
+.profile-username {
+    font-family: Poppins;
+    font-size: var(--fs-24);
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.p-35 {
+    padding: 35px;
+
+}
+
+.con-shadow {
+    box-shadow: 0px 8px 35px 0px #0000001A;
+
+}
+
+.profile-text {
+    margin-left: 23px;
+
+}
+
+.font-text {
+    font-family: Poppins;
+    font-size: var(--fs-24);
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.mt-55 {
+    margin-top: 55px !important;
+}
+
+.profile-evenat-name {
+    font-family: Poppins;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--primary);
+
+}
+
+.text-2 {
+    font-family: Poppins;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--primary);
+    text-align: left;
+
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-14 {
+    gap: 14px;
+}
+
+.box-4 {
+    max-width: 100px;
+    width: 100%;
+    height: 100%;
+    max-height: 100px;
+    background-color: red;
+}
+
+.transform {
+    top: 72%;
+    left: 62%;
+
+}
