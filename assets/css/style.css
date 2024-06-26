@@ -44,7 +44,12 @@
 
 
 }
-
+.modal-header {
+    border-bottom: none !important;
+}
+.modal-footer{
+    border-top: none !important;
+} 
 .home-feed {
     font-family: Poppins;
     font-size: var(--fs-16);
