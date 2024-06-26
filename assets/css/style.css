@@ -409,7 +409,7 @@ input[type="checkbox"]:checked+label svg {
 .post-com {
     width: 208px;
     height: 56px;
-     border-radius: 36px;
+    border-radius: 36px;
     background-color: blue;
     border: none;
     color: white;
@@ -420,7 +420,8 @@ input[type="checkbox"]:checked+label svg {
     line-height: 30px;
     transition: all 300ms linear;
 }
-.post-com:hover{
+
+.post-com:hover {
     background-color: white;
     border: 1px solid blue;
     color: blue;
@@ -653,10 +654,7 @@ input[type="checkbox"]:checked+label svg {
     margin-top: 60px;
 }
 
-.max-1241 {
-    width: 1241px;
 
-}
 
 .btnn {
     background-color: #E6E6E6;
