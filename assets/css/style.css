@@ -656,6 +656,7 @@ input[type="checkbox"]:checked+label svg {
 
 
 
+
 .btnn {
     background-color: #E6E6E6;
     color: var(--primary);
@@ -812,17 +813,21 @@ input[type="checkbox"]:checked+label svg {
     .modal-footer {
         justify-content: center !important;
     }
-}
 
-
-
-
-
-@media (max-width: 568px) {
     .mb-15-sm {
         margin-bottom: 15px;
     }
+
+    .w-80 {
+        width: 80px;
+    }
 }
+
+
+
+
+
+
 
 @media (min-width: 1400px) {
     .max-1241 {
