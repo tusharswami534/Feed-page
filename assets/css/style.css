@@ -55,6 +55,11 @@
     text-align: left;
 
 }
+.bg-shpdow{
+    background-color: white;
+    box-shadow: 0px 8px 35px 0px #0000000D;
+
+}
 
 .head-text {
     font-family: Poppins;
