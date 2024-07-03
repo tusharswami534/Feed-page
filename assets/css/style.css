@@ -63,6 +63,9 @@
     text-align: left;
 
 }
+.p-10-24{
+    padding: 10px 24px;
+}
 
 .bg-shpdow {
     background-color: white;
@@ -249,11 +252,17 @@ input[type="checkbox"]:checked+label svg {
 .cursor {
     cursor: pointer;
 }
+.mb-20
+{
+    margin-bottom: 20px;
+}
 
 .boxs {
     flex-wrap: wrap;
 }
-
+.mb-104{
+    margin-bottom: 104px;
+}
 .box-3 {
     background-color: #EAEDFF;
 
