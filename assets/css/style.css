@@ -743,7 +743,9 @@ input[type="checkbox"]:checked+label svg {
     text-align: left;
     color: #ffffffff;
 }
-
+.h-215{
+    height: 215px;
+}
 .foter-text {
     font-family: Poppins;
     font-size: 14px;
