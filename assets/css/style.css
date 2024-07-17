@@ -96,7 +96,7 @@
     color: var(--null);
 }
 
-.hover-bold {
+.nav-link  {
     font-family: Poppins;
     font-size: var(--fs-16);
     font-weight: 400;
@@ -105,8 +105,11 @@
 
 
 }
+.hover-bold:hover{
+    -webkit-text-stroke: 1px;
+}
 
-.Foll-event {
+.Following-event {
     font-family: Poppins;
     font-size: var(--fs-16);
     font-weight: 600;
@@ -117,7 +120,7 @@
 
 
 
-.imgs {
+.img-box {
     transition: all 300ms linear;
     overflow: hidden;
     max-width: 560px;
@@ -184,9 +187,12 @@
 }
 
 
-.border-all {
-    border: 1px solid #00000033;
+.border-radius-20{
+ 
     border-radius: 20px;
+}
+.border-light-black{
+       border: 1px solid #00000033;
 }
 
 .gap-20 {
@@ -197,7 +203,7 @@
     margin-left: 13px;
 }
 
-.etiam {
+.hero-section-box-header {
     font-family: Poppins;
     font-size: var(--fs-16);
     font-weight: 700;
@@ -205,7 +211,7 @@
 
 }
 
-.plus-15 {
+.hero-section-number-box {
     font-family: Poppins;
     font-size: var(--fs-36);
     font-weight: 600;
@@ -214,7 +220,7 @@
 
 }
 
-.more {
+.hero-section-number-box-footer, .more {
     font-family: Poppins;
     font-size: var(--fs-16);
     font-weight: 400;
@@ -353,9 +359,7 @@ input[type="checkbox"]:checked+label svg {
     gap: 40px;
 }
 
-.gap-14 {
-    gap: 14px;
-}
+
 
 .box-4 {
     max-width: 100px;
@@ -418,34 +422,31 @@ input[type="checkbox"]:checked+label svg {
     align-items: center;
 }
 
-.bor-der {
+.border {
     border: 2px solid #9CA1BE;
+}
+.border-radius-35{
     border-radius: 35px;
-    align-items: center;
-    padding: 7px;
-
 }
 
 .ml-21 {
     margin-left: 21px;
 }
 
-.post-com {
+.post-comment {
     width: 208px;
     height: 56px;
     border-radius: 36px;
     background-color: blue;
     border: none;
     color: white;
-
     font-size: 20px;
-
     font-weight: 600;
     line-height: 30px;
     transition: all 300ms linear;
 }
 
-.post-com:hover {
+.post-comment:hover {
     background-color: white;
     border: 1px solid blue;
     color: blue;
@@ -548,17 +549,6 @@ input[type="checkbox"]:checked+label svg {
     width: fit-content;
 }
 
-.gall-ry {
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
-    margin-top: 48px;
-    margin-bottom: 24px;
-}
 
 .credits {
     font-family: "Poppins", sans-serif;
@@ -581,7 +571,7 @@ input[type="checkbox"]:checked+label svg {
     padding-top: 30px;
 }
 
-.gap10 {
+.gap-10 {
     gap: 10px;
 }
 
@@ -725,10 +715,7 @@ input[type="checkbox"]:checked+label svg {
     width: fit-content;
 }
 
-.col-3-text:hover {
-    color: blue;
 
-}
 
 .mt-20 {
     margin-top: 20px;
@@ -742,10 +729,7 @@ input[type="checkbox"]:checked+label svg {
     letter-spacing: 0em;
     text-align: left;
     color: #ffffffff;
-}
-.h-215{
-    height: 215px;
-}
+}   
 .foter-text {
     font-family: Poppins;
     font-size: 14px;
@@ -757,7 +741,7 @@ input[type="checkbox"]:checked+label svg {
 
     }
 
-.show-2 {
+.footer-section-show-more-text {
     height: 100%;
     background: #2D3CAE87;
     font-family: var(--poppins);
@@ -789,11 +773,9 @@ input[type="checkbox"]:checked+label svg {
     background-color: red;
 }
 
-.gap10 {
-    gap: 20px;
-}
 
-.gallery-2 {
+
+.footer-gallery {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -804,7 +786,7 @@ input[type="checkbox"]:checked+label svg {
     margin-bottom: 24px;
 }
 
-.light-2::after {
+.underline-hover-white::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -815,7 +797,7 @@ input[type="checkbox"]:checked+label svg {
     background-color: rgb(255, 255, 255);
 }
 
-.light-2:hover::after {
+.underline-hover-white:hover::after {
     width: 100%;
     left: 0;
 }
